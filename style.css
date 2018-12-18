@@ -238,6 +238,62 @@
 	}
 
 }
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+#sec1{
+		display: block;
+		text-align: center;
+	}
+	#left1{
+		width: 100%;
+		float: left;
+	}
+	#right1{
+		width: 100%;
+		float: left;
+	}
+	
+	#slogan{
+		width: 60%;
+	}
+	#iphone {
+	width: 60%;
+	margin-left: 60px;
+	}
+
+	#android {
+	width: 60%;
+	margin-right: 60px;
+	}
+	#mob1 {
+		width: 90%;
+	}
+	#sec2{
+		display: block;
+		text-align: center;
+	}
+	#left2{
+		width: 100%;
+		float: left;
+	}
+	#right2{
+		width: 100%;
+		float: right;
+	}
+	#artist {
+	width: 60%;
+    }
+	#sec3{
+		display: block;
+		text-align: center;
+	}
+	#left3{
+		width: 100%;
+		float: left;
+	}
+	#right3{
+		width: 100%;
+		float: right;
+	}
+ }
 @media (min-width: 768px) and (max-width: 991.98px) {  }
 @media (min-width: 992px) and (max-width: 1199.98px) {  }
