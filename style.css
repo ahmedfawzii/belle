@@ -36,6 +36,8 @@
 	border-style: solid;
 	background-color: #210d13;
 	background-image: url(imgs/bg.png);
+	background-size: 100%;
+
 }
 #sec3 {
 	float: left;
