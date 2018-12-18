@@ -1,0 +1,243 @@
+@charset "utf-8";
+#container {
+	height: 100%;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	background-image: url(imgs/bg.png);
+	background-color: black;
+}
+#sec1 {
+	float: left;
+	height: 25%;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	text-align: center;
+}
+#sec2 {
+	float: left;
+	height: 25%;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	background-color: #210d13;
+	background-image: url(imgs/bg.png);
+}
+#sec3 {
+	float: left;
+	height: 25%;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	text-align: center;
+}
+#sec4 {
+	float: left;
+	height: 25%;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+}
+#left1 {
+	margin: 0px;
+	float: left;
+	height: 100%;
+	width: 60%;
+	border-width: 0px;
+	border-style: solid;
+}
+#right1 {
+	margin: 0px;
+	float: right;
+	height: 100%;
+	width: 40%;
+	border-width: 0px;
+	border-style: solid;
+}
+#left2 {
+	margin: 0px;
+	float: left;
+	height: 100%;
+	width: 40%;
+	border-width: 0px;
+	border-style: solid;
+}
+#right2 {
+	margin: 0px;
+	float: right;
+	height: 100%;
+	width: 60%;
+	border-width: 0px;
+	border-style: solid;
+}
+#left3 {
+	margin: 0px;
+	float: left;
+	height: 100%;
+	width: 60%;
+	border-width: 0px;
+	border-style: solid;
+}
+#right3 {
+	margin: 0px;
+	float: right;
+	height: 100%;
+	width: 40%;
+	border-width: 0px;
+	border-style: solid;
+}
+#upper {
+	margin: 0px;
+	float: left;
+	height: 60%;
+	width: 100%;
+	border-width: 0px;
+	border-style: solid;
+}
+#lower {
+	margin: 0px;
+	float: left;
+	height: 40%;
+	width: 100%;
+	border-width: 0px;
+	border-style: solid;
+}
+#google {
+	margin: 0px;
+	float: right;
+	height: 100%;
+	width: 50%;
+	border-width: 0px;
+	border-style: solid;
+}
+#apple {
+	margin: 0px;
+	float: left;
+	height: 100%;
+	width: 50%;
+	border-width: 0px;
+	border-style: solid;
+}
+
+#right2 h1,p {
+	color: white;
+	width: 80%;
+	margin: auto ;
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 30px;		
+}
+
+#right2 h1 {
+	font-weight:bolder;
+	margin-top: 100px;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+#right2 p {
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+#slogan {
+	margin-top: 100px;
+	margin-bottom: 39px;
+	
+}
+
+#iphone {
+	width: 50%;
+	margin-left: 60px;
+}
+
+#android {
+	width: 50%;
+	margin-right: 60px;
+}
+
+#artist {
+	width: 100%;
+}
+
+@media (max-width: 575.98px) { 
+	#sec1{
+		display: block;
+		text-align: center;
+	}
+	#left1{
+		width: 100%;
+		float: left;
+	}
+	#right1{
+		width: 100%;
+		float: left;
+	}
+	
+	#slogan{
+		width: 60%;
+	}
+	#iphone {
+	width: 60%;
+	margin-left: 60px;
+	}
+
+	#android {
+	width: 60%;
+	margin-right: 60px;
+	}
+	#mob1 {
+		width: 90%;
+	}
+	#sec2{
+		display: block;
+		text-align: center;
+	}
+	#left2{
+		width: 100%;
+		float: left;
+	}
+	#right2{
+		width: 100%;
+		float: right;
+	}
+	#artist {
+	width: 60%;
+    }
+	#sec3{
+		display: block;
+		text-align: center;
+	}
+	#left3{
+		width: 100%;
+		float: left;
+	}
+	#right3{
+		width: 100%;
+		float: right;
+	}
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
