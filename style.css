@@ -180,6 +180,12 @@
 	width: 100%;
 }
 
+#sec3 p {
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+
 @media screen and (max-width:767px){
 	#sec1{
 		display: block;
