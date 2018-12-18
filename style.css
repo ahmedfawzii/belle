@@ -9,6 +9,7 @@
 	border-width: 0px;
 	border-style: solid;
 	background-image: url(imgs/bg.png);
+	background-size: 100%;
 	background-color: black;
 }
 #sec1 {
