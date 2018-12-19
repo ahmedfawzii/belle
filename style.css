@@ -83,6 +83,7 @@
 	border-width: 0px;
 	border-style: solid;
 }
+
 #left2 {
 	margin: 0px;
 	float: left;
@@ -98,6 +99,7 @@
 	width: 60%;
 	border-width: 0px;
 	border-style: solid;
+	text-align: center;
 }
 #left3 {
 	margin: 0px;
@@ -116,7 +118,7 @@
 	border-style: solid;
 }
 #upper {
-	margin: 0px;
+	margin: 0 auto;
 	float: left;
 	height: 60%;
 	width: 100%;
@@ -124,7 +126,7 @@
 	border-style: solid;
 }
 #lower {
-	margin: 0px;
+	margin: 0 auto;
 	float: left;
 	height: 40%;
 	width: 100%;
@@ -151,7 +153,7 @@
 #right2 h1,p {
 	color: white;
 	width: 80%;
-	margin: auto ;
+	margin: 0 auto;
 	font-family: 'ABeeZee', sans-serif;
 	font-size: 30px;		
 }
@@ -164,7 +166,9 @@
 }
 
 #right2 p {
-	margin-top: 50px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 40px;
 	font-size: 25px;
 }
 
@@ -189,8 +193,9 @@
 }
 
 #sec3 p {
-	margin-top: 20px;
-	margin-bottom: 40px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 40px;
 	font-size: 25px;
 }
 
@@ -199,18 +204,20 @@
 	padding-bottom: 30px;
 }
 
-#sec4 h1 {
-	color: white;
-	width: 80%;
-	margin: auto ;
-	font-family: 'ABeeZee', sans-serif;
-	font-size: 30px;
-	margin-top: 50px;
-	margin-bottom: 40px;
-	text-transform: uppercase;
+
+
+.video-container{
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 45%;
 }
-
-
+.video-container iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
 
 
