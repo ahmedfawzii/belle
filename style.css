@@ -219,7 +219,7 @@
 #sec4 h1 {
 	font-weight:bolder;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 40px;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	color: white;
@@ -323,6 +323,17 @@
 	.icons img {
 	width: 25%;
 }
+#sec4 h1 {
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'ABeeZee', sans-serif;
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px) { 
 	
@@ -412,4 +423,14 @@
 	.icons img {
 	width: 25%;
 }
-
+#sec4 h1 {
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'ABeeZee', sans-serif;
+}
